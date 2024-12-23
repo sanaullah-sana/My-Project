@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Inter", sans-serif;
+}
+p{
+    font-family: "Inter", sans-serif;
+}
+.letter-spacing{
+    letter-spacing: 2px;
+}
+/* Header */
+.header{
+    font-family: "Poppins", sans-serif;
+}
+/* /Header */
+/* Header Navigation */
+.header ul li a{
+    color: #000000;
+}
+.header ul li a:hover{
+    color: #39DB4A;
+}
+/* /Header Navigation */
+/* Header Button */
+.background-color{
+    background-color: #39DB4A;
+    color: #ffffff;
+}
+.background-color:hover{
+    background-color: #39DB4A;
+    color: #ffffff;
+}
+/* Button Icon */
+.header-btn-icon{
+    width: 20px;
+    height: 20px;
+}
+/* /Button Icon */
+/* /Header Button */
+.video-icon{
+    box-shadow: 5px 5px 40px #000000;
+}
+.social-icons-color{
+    color: #000000;
+    transition: all ease-in-out .3s;
+}
+.social-icons-color:hover{
+    color: #39DB4A;
+}
